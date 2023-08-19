@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:auto;
+    background: linear-gradient(136deg, #AC2828 0%, rgba(217, 217, 217, 0.00) 100%), linear-gradient(104deg, #AC2828 0%, rgba(241, 4, 4, 0.00) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+#Box > h1{
+    color: white;
+    text-shadow: 0.1vh 0.1vh 0.2vh black;
+    text-align: center;
+    font-size: 9vh;
+    padding: 2vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Forms , #ConteudoAdicionar {
+    display: block;
+    margin: auto;
+    border: 0.2vh solid black;
+    padding: 2vh;
+    width: 50%;
+    border-radius: 2vh;
+    background-color: rgb(39, 37, 37);
+    height: 40vh;
+}
+#Forms > input::placeholder,#ConteudoAdicionar > input::placeholder,#ConteudoAdicionar > textarea::placeholder{
+    color: white;
+}
+#Forms > input,#ConteudoAdicionar > input,#ConteudoAdicionar > textarea{
+    all: unset;
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 1vh;
+    border-bottom: 0.1vh solid rgb(119, 117, 117);
+    margin-top: 5vh;
+    font-size: 2.3vh;
+}
+#Forms > input:focus{
+    border-color: yellow;
+    transition: .5s;
+}
+#Forms > input[type='submit'],#Adicionando,#ConteudoAdicionar > button{
+    all: unset;
+    color: yellow;
+    margin: auto;
+    display: block;
+    margin-top: 5vh;
+    border-radius: 2vh;
+    background-color: rgb(56, 53, 53);
+    width: 30%;
+    text-align: center;
+    font-size: 3.4vh;
+    padding: 2vh;
+    cursor: pointer;
+}
+#Forms > input[type='submit']:hover,#Adicionando:hover,#ConteudoAdicionar > button:hover{
+    background-color: rgb(0, 255, 255);
+    color: black;
+    transition: .2s;
+}
+#ConteudoAdicionar{
+    height: auto;
+    margin-top: 2vh;
+}
+#ConteudoAdicionar > textarea{
+    padding: 1vh;
+}
+#ConteudoAdicionar > input[type='file']{
+    all: unset;
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+    color: white;
+    padding: 2vh;
+}
+#Corpo_API{
+    background: linear-gradient(135deg , rgba(39, 37, 37, 0.1),rgba(39, 37, 37, 0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(1vh);
+    -webkit-backdrop-filter: blur(8vh);
+    color: white;
+    height: 80vh;
+    padding: 2vh;
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+    overflow: auto;
+    border-radius: 2vh;
+}
+#Corpo_API >div > h2,#Corpo_API >div > p{
+    padding: 2vh;
+    font-size: 5vh;
+    color: yellow;
+    text-shadow: 0.2vh 0.2vh 0.2vh orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Corpo_API >div > p{
+    font-size: 4vh;
+}
+#Corpo_API >div > img{
+    height: auto;
+    width: auto;
+    margin-top: 2vh;
+}
+select{
+    background-color: black;
+    color: white;
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    color: yellow;
+    padding: 1vh;
+    font-size: 2vh;
+}
+#TituloName,#VJ{
+    color: white;
+    text-align: center;
+    font-size: 5vh;
+    padding: 1.8vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#JsonVersion{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 90%;
+    font-size: 4vh;
+    word-wrap: break-word;
+    height: auto;
+    margin: auto;
+}

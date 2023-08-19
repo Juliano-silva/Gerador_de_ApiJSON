@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Api JSON</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1493/1493169.png" type="image/x-icon">
+</head>
+<body id="Corpo">
+    <div id="Box">
+        <h1>Gerador de API JSON</h1>
+        <form id="Forms">
+            <input type="text" placeholder="Digite o nome da Api" id="name">
+            <input type="text" placeholder="Adicionar uma descrição" id="Conteudo">
+            <input onclick="Submit()" type="submit" value="Enviar">
+        </form> 
+        <button onclick="Add()" id="Adicionando">Adicionar</button>
+        <div id="ConteudoAdicionar">
+            <h6 id="TituloName"></h6>
+        </div>
+        <div id="Corpo_API">
+        </div>
+    </div>
+    <h1 id="VJ">Versão JSON</h1>
+    <div id="JsonVersion"></div>
+    <br>
+</body>
+<script src="./Scripts/script.js"></script>
+</html>
